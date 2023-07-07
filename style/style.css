@@ -1,0 +1,44 @@
+/* common things */
+body{
+    font-family: 'Lato' , sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    color:#FD6E0A;
+    border-radius: 5px;
+}
+.btn-primary{
+    border: none;
+    border-radius: 5px;
+    background: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 15px 35px;
+}
+/* nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    color: #181818;
+font-family: Open Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+nav >ul{
+    align-items: center;
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
