@@ -15,10 +15,15 @@ body {
   font-weight: 700;
   color: white;
   padding: 15px 35px;
+  transition: .5s ease-out;
+  border: 1px solid #fd6e0a;
 }
+
 .btn-primary:hover {
-    background: #FF912A;
-  }
+  background: #fff8f3;
+  color: #fd6e0a;
+}
+
 .section-title {
   color: #181818;
   text-align: center;
